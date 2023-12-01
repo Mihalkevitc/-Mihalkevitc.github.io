@@ -39,6 +39,8 @@ main
 #logo
 {
     position: absolute;
+    height: 150px;
+    width: 150px;
     top: 50px;
     left: 50px;
     
@@ -2766,12 +2768,50 @@ address
 
 @media screen and (max-width:768px)
 {
+    #logo
+    {
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        top: 3vh;
+        left: 5vw;
+    }
+    #начало
+    {
+        position: relative;
+        left:3vw;
+        top:-7vh;
+    }
+    #начало::first-letter
+    {
+        font-size:100px;
+        margin-top: 0px;
+    }
+    .header
+    {
+        height: 10vh;
+    }
+    .header h2
+    {
+        visibility: hidden;
+    }
+
+    .header abbr
+    {
+        visibility: hidden
+    }
+    .header h3
+    {
+        visibility: hidden
+    }
+
     .login__area
 {
     display: flex;
     justify-content: center;
     align-items:center;
 
+    margin-top: 5vh;
     height: 55vh;
     width: 100%;
 
@@ -2779,8 +2819,8 @@ address
 }
     .login
 {
-    height: 55%;
-    width: 70%;
+    height: 50vh;
+    width: 65vw;
 }
 #login_input1, #password1, #login_name1, #login_surname1, #login_massage1
 {
@@ -2834,7 +2874,7 @@ address
     width: 90vw;
     /* right: 0; */
     left: 5vw;
-    top: 40vh;
+    top: 20vh;
     filter: brightness(150%);
     filter: contrast(150%);
     z-index: -100;
@@ -2860,7 +2900,7 @@ address
     {
         display: grid;
 
-        height:250% ;
+        height:250vh ;
 
         grid-template-rows: 3rem 6rem 10rem 10rem 10rem;
     
