@@ -3,8 +3,8 @@ function toggleHeight(element, height, inset_text_n)
     var parent = element.parentNode;
     var inset_wrapper = document.getElementById("inset_wrapper");
     var inset_text = document.getElementById(inset_text_n);
-    
-    if (parent.offsetHeight == 81) 
+    var offsetHeight = parent.offsetHeight;
+    if (parent.offsetHeight == offsetHeight) 
     {
       parent.style.height = height+"px";
       parent.style.backgroundColor = "white";
