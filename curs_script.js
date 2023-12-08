@@ -84,8 +84,3 @@ function toggleColor(element)
       alert("Вы успешно вошли!");
     })
 ////////////////////////////////////////////////////////////////////
-    const sectionLink = 'Curs_artist.html/#Rembrandt';
-
-document.getElementById('ppp').addEventListener('click', function() {
-  window.location.href = sectionLink;
-});
