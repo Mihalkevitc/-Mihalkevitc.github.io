@@ -41,20 +41,20 @@ function toggleColor(element)
   }; 
 
 /////////////////////////////////////////////////////////////////////////
-  document.querySelector('.icon1').addEventListener('click', function() 
-  {
-    window.location.href = 'https://www.youtube.com/';
-  });
+  // document.querySelector('.icon1').addEventListener('click', function() 
+  // {
+  //   window.location.href = 'https://www.youtube.com/';
+  // });
 
-  document.querySelector('.icon2').addEventListener('click', function() 
-  {
-    window.location.href = 'https://vk.com';
-  });
+  // document.querySelector('.icon2').addEventListener('click', function() 
+  // {
+  //   window.location.href = 'https://vk.com';
+  // });
 
-  document.querySelector('.icon3').addEventListener('click', function() 
-  {
-    window.location.href = 'https://telegram.org/?1';
-  });
+  // document.querySelector('.icon3').addEventListener('click', function() 
+  // {
+  //   window.location.href = 'https://telegram.org/?1';
+  // });
 
   /////////////////////////////////////////////////////////////////////////
 
@@ -67,11 +67,11 @@ function toggleColor(element)
 
     /////////////////////////////////////////////////////////////////////////
 
-    var log_but2 = document.getElementById('log_but2');
-    log_but2.addEventListener('click', function() 
-    {
-      alert("Вы успешно зарегистрировались!");
-    })
+    // var log_but2 = document.getElementById('log_but2');
+    // log_but2.addEventListener('click', function() 
+    // {
+    //   alert("Вы успешно зарегистрировались!");
+    // })
 
 
     function Vxod(element) 
