@@ -3193,7 +3193,7 @@ select
         width: 15rem;
     
         /* margin-left: -2%; */
-        margin-left: 3rem;
+        margin-left: 2.5rem;
         margin-top: 80px;
         margin-bottom: 200px;
         padding-right: 1%;
@@ -3204,12 +3204,13 @@ select
 
     #card_wrapper9_titel::first-letter
     {
-        font-size: 100px;
+        font-size: 90px;
     }
 
     #card_wrapper9_titel
     {
-        font-size: 80px;
+        text-align: center;
+        font-size: 70px;
     }
 
     .card-9
@@ -3366,7 +3367,7 @@ select
 {
     margin-top: 100px;
 
-    height: 4700px;
+    height: 5000px;
     width: 100%;
 }
 
@@ -3387,7 +3388,7 @@ select
     height: 1500px !important;
     width: 100%;
 
-    margin-bottom: 15%;
+    margin-bottom: 25%;
     margin-left: 1%;
 
     /* background-color: aqua; */
@@ -3424,7 +3425,8 @@ select
 
 #materials_p_graph
 {
-    height:18vw;
+    height:12vw;
+    font-size: 6vw;
     line-height: 30px;
     text-align: center;
 }
@@ -3454,8 +3456,10 @@ select
 {
     justify-self: center;
     margin-left: -10%;
-    height: 90%;
-    width: 50%;
+    /* height: 90%;
+    width: 50%; */
+    height: 20rem;
+    width: 10rem;
     filter: contrast(130%);
 }
 
@@ -3468,8 +3472,10 @@ select
 {
     align-self: center;
     justify-self: center;
-    height: 80%;
-    width: 50%;
+    /* height: 80%;
+    width: 50%; */
+    height: 16rem;
+    width: 9rem;
     filter: contrast(130%);
 }
 
@@ -3483,8 +3489,10 @@ select
 {
     align-self: center;
     justify-self: center;
-    height: 60%;
-    width: 60%;
+    /* height: 60%;
+    width: 60%; */
+    height: 14rem;
+    width: 14rem;
     filter: contrast(130%);
 }
 
@@ -3498,8 +3506,10 @@ select
 {
     align-self: center;
     justify-self: center;
-    height: 65%;
-    width: 70%;
+    /* height: 65%;
+    width: 70%; */
+    height: 9rem;
+    width: 12rem;
     filter: contrast(130%);
 }
 
@@ -3559,7 +3569,7 @@ select
 
     margin-top: 100px;
 
-    height: 5800px;
+    height: 5300px;
     width: 100%;
 }
 
@@ -3578,17 +3588,22 @@ select
 
     justify-content: space-between;
 
-    height: 2400px;
+    height: 1200px;
     width: 100%;
 
-    margin-bottom: 200px;
+    margin-bottom: 10px;
 }
 
 .atrist_name p
 {
+    top: 0;
     height:9vw;
-
     font-size: 7vw;
+}
+
+#artist_img1_p, #artist_img2_p
+{
+    margin-right: 23%;
 }
 
 #artist_img1
@@ -3596,7 +3611,6 @@ select
     height: 300px;
     width: 60%;
     min-width: 250px;
-
     /* background-color: #fff201; */
 }
 
